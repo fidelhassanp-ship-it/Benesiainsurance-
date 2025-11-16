@@ -28,3 +28,6 @@
   display: block;
   opacity: 1;
 }
+body {
+    background-color: green; /* choose any color */
+}
