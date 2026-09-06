@@ -64,3 +64,87 @@ body {
 .whatsapp-floating:hover {
     background: #128C7E;
 }
+/* LOCATION BUTTON IN NAVIGATION */
+.location-nav-btn {
+display: inline-block;
+padding: 10px 16px;
+background: #0a66c2;
+color: white;
+text-decoration: none;
+border-radius: 20px;
+font-weight: bold;
+margin-left: 8px;
+transition: 0.3s ease;
+}
+
+.location-nav-btn:hover {
+background: #084f96;
+transform: scale(1.05);
+}
+
+/* LOCATION SECTION */
+.location {
+padding: 50px 20px;
+text-align: center;
+}
+
+.location h2 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.location p {
+line-height: 1.7;
+margin-bottom: 20px;
+}
+
+/* MAP */
+.map-container {
+max-width: 1000px;
+margin: 20px auto;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.map-container iframe {
+display: block;
+}
+
+/* GET DIRECTIONS BUTTON */
+.location-btn {
+display: inline-block;
+margin-top: 20px;
+padding: 13px 24px;
+background: #0a66c2;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+transition: 0.3s ease;
+}
+
+.location-btn:hover {
+background: #084f96;
+transform: scale(1.05);
+}
+
+/* MOBILE PHONE */
+@media (max-width: 600px) {
+
+nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 8px;
+}
+
+.location-nav-btn {
+margin-left: 0;
+}
+
+.map-container iframe {
+height: 280px;
+}
+
+}
