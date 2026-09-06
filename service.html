@@ -1,17 +1,27 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Services | Benesiainsurance</title>  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Benesiainsurance</title>  <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
-</head><body>  <!-- Loading Screen -->  <div id="loader" class="loader"></div>  <!-- Header -->  <header>
+</head><body>  <!-- Loading -->  <div id="loader" class="loader"></div>  <!-- Header -->  <header>
     <h1>Benesiainsurance</h1><nav>
-  <a href="index.html" class="home-icon">🏠</a>
+  <a href="index.html" class="home-icon">🏠 Home</a>
   <a href="services.html">Services</a>
+
+  <!-- Location Button -->
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=Tumaini+Towers,+Kisii,+Kenya"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="location-nav-btn">
+    📍 Location
+  </a>
 </nav>
 
-  </header>  <!-- Main Content -->  <main><!-- Services Section -->
+  </header>  <!-- Main Content -->  <main><!-- Services -->
 <section class="services">
+
   <h2>Our Insurance Services</h2>
 
   <p>
@@ -20,46 +30,31 @@
 
   <div class="features">
 
-    <!-- Health Insurance -->
     <div class="card">
       <img
         src="assets/photo-placeholder.jpg"
-        alt="Health Insurance"
-        style="width:100%; border-radius:1rem;"
-      />
-
+        alt="Health Insurance">
       <h3>Health Insurance</h3>
-
       <p>
         Comprehensive medical cover for individuals and families.
       </p>
     </div>
 
-    <!-- Auto Insurance -->
     <div class="card">
       <img
         src="assets/photo-placeholder.jpg"
-        alt="Auto Insurance"
-        style="width:100%; border-radius:1rem;"
-      />
-
+        alt="Auto Insurance">
       <h3>Auto Insurance</h3>
-
       <p>
         Affordable protection for your car, van, or motorbike.
       </p>
     </div>
 
-    <!-- Business Insurance -->
     <div class="card">
       <img
         src="assets/photo-placeholder.jpg"
-        alt="Business Insurance"
-        style="width:100%; border-radius:1rem;"
-      />
-
+        alt="Business Insurance">
       <h3>Business Insurance</h3>
-
       <p>
         Secure your company assets and employees from unexpected risks.
       </p>
@@ -68,13 +63,14 @@
   </div>
 </section>
 
-<!-- Contact Section -->
+
+<!-- Contact -->
 <section class="contact">
 
   <h2>Contact Us</h2>
 
   <p>
-    We’d love to hear from you. Please fill out the form below or reach us
+    We'd love to hear from you. Please fill out the form below or reach us
     directly at
     <a href="mailto:Benesiainsuranceagency@gmail.com">
       Benesiainsuranceagency@gmail.com
@@ -84,29 +80,25 @@
   <form
     action="https://formspree.io/f/mrbrzlzb"
     method="POST"
-    class="contact-form"
-  >
+    class="contact-form">
 
     <input
       type="text"
       name="name"
       placeholder="Your Full Name"
-      required
-    />
+      required>
 
     <input
       type="email"
       name="email"
       placeholder="Your Email Address"
-      required
-    />
+      required>
 
     <textarea
       name="message"
       placeholder="Your Message..."
       rows="5"
-      required
-    ></textarea>
+      required></textarea>
 
     <button type="submit" class="btn">
       Send Message
@@ -116,22 +108,58 @@
 
 </section>
 
-  </main>  <!-- WhatsApp Button --><a
+
+<!-- Location -->
+<section class="location">
+
+  <h2>📍 Find Us</h2>
+
+  <p>
+    <strong>Benesiainsurance</strong><br>
+    Tumaini Towers, 2nd Floor<br>
+    Kisii Town, next to the Governor's Office
+  </p>
+
+  <!-- Google Maps -->
+  <div class="map-container">
+
+    <iframe
+      src="https://www.google.com/maps?q=Tumaini+Towers,+Kisii,+Kenya&output=embed"
+      width="100%"
+      height="350"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </div>
+
+  <!-- Directions Button -->
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=Tumaini+Towers,+Kisii,+Kenya"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="location-btn">
+    📍 Get Directions
+  </a>
+
+</section>
+
+  </main>  <!-- WhatsApp --><a
 href="https://wa.me/254724143146"
 class="whatsapp-floating"
 target="_blank"
-rel="noopener noreferrer"
-
-«»
-
+rel="noopener noreferrer">
 💬 WhatsApp
+</a>
 
-  </a>  <!-- Footer -->  <footer>
-    <p>
-      © 2026 Benesiainsurance |
-      <a href="mailto:Benesiainsuranceagency@gmail.com">
-        Benesiainsuranceagency@gmail.com
-      </a>
-    </p>
+  <!-- Footer -->  <footer><p>
+  © 2026 Benesiainsurance |
+  <a href="mailto:Benesiainsuranceagency@gmail.com">
+    Benesiainsuranceagency@gmail.com
+  </a>
+</p>
+
   </footer></body>
 </html>
